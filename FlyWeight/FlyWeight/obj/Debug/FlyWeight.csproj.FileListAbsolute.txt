@@ -1,0 +1,7 @@
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\bin\Debug\FlyWeight.exe.config
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\bin\Debug\FlyWeight.exe
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\bin\Debug\FlyWeight.pdb
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\obj\Debug\FlyWeight.csprojAssemblyReference.cache
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\obj\Debug\FlyWeight.csproj.CoreCompileInputs.cache
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\obj\Debug\FlyWeight.exe
+C:\Users\КалихановК\source\repos\FlyWeight\FlyWeight\obj\Debug\FlyWeight.pdb
