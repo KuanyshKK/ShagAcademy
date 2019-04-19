@@ -1,0 +1,7 @@
+Arrays.asList(match(eq("_id", new ObjectId("5c5aa8551ad17423a4f6ef1d"))),
+				project(fields(include("constants"), excludeId())), unwind("$constants"),
+				project(fields(computed("_id", "$constants._id"), computed("name", "$constants.name"),
+						computed("key", "$constants.key"), computed("value", "$constants.value"),
+						computed("fromDate", "$constants.fromDate"))),
+				match(lt("$expr", Arrays.asList("fromDate", new java.util.Date(1546300800000L)))),
+				sort(descending("fromDate")), limit(1));
