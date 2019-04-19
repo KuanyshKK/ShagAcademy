@@ -1,7 +1,0 @@
-C:\Users\КалихановК\source\repos\Facade\Facade\bin\Debug\Facade.exe.config
-C:\Users\КалихановК\source\repos\Facade\Facade\bin\Debug\Facade.exe
-C:\Users\КалихановК\source\repos\Facade\Facade\bin\Debug\Facade.pdb
-C:\Users\КалихановК\source\repos\Facade\Facade\obj\Debug\Facade.csprojAssemblyReference.cache
-C:\Users\КалихановК\source\repos\Facade\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
-C:\Users\КалихановК\source\repos\Facade\Facade\obj\Debug\Facade.exe
-C:\Users\КалихановК\source\repos\Facade\Facade\obj\Debug\Facade.pdb

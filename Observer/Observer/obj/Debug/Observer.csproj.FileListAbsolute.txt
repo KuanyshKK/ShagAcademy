@@ -1,7 +1,0 @@
-C:\Users\КалихановК\source\repos\Observer\Observer\bin\Debug\Observer.exe.config
-C:\Users\КалихановК\source\repos\Observer\Observer\bin\Debug\Observer.exe
-C:\Users\КалихановК\source\repos\Observer\Observer\bin\Debug\Observer.pdb
-C:\Users\КалихановК\source\repos\Observer\Observer\obj\Debug\Observer.csprojAssemblyReference.cache
-C:\Users\КалихановК\source\repos\Observer\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
-C:\Users\КалихановК\source\repos\Observer\Observer\obj\Debug\Observer.exe
-C:\Users\КалихановК\source\repos\Observer\Observer\obj\Debug\Observer.pdb

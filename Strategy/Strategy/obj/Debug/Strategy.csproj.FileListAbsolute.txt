@@ -1,7 +1,0 @@
-C:\Users\КалихановК\source\repos\Strategy\Strategy\bin\Debug\Strategy.exe.config
-C:\Users\КалихановК\source\repos\Strategy\Strategy\bin\Debug\Strategy.exe
-C:\Users\КалихановК\source\repos\Strategy\Strategy\bin\Debug\Strategy.pdb
-C:\Users\КалихановК\source\repos\Strategy\Strategy\obj\Debug\Strategy.csprojAssemblyReference.cache
-C:\Users\КалихановК\source\repos\Strategy\Strategy\obj\Debug\Strategy.csproj.CoreCompileInputs.cache
-C:\Users\КалихановК\source\repos\Strategy\Strategy\obj\Debug\Strategy.exe
-C:\Users\КалихановК\source\repos\Strategy\Strategy\obj\Debug\Strategy.pdb

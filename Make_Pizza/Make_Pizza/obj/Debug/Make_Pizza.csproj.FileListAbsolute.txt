@@ -1,7 +1,0 @@
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\bin\Debug\Make_Pizza.exe.config
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\bin\Debug\Make_Pizza.exe
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\bin\Debug\Make_Pizza.pdb
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\obj\Debug\Make_Pizza.csproj.CoreCompileInputs.cache
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\obj\Debug\Make_Pizza.exe
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\obj\Debug\Make_Pizza.pdb
-C:\Users\КалихановК\source\repos\Make_Pizza\Make_Pizza\obj\Debug\Make_Pizza.csprojAssemblyReference.cache
