@@ -1,0 +1,3 @@
+https://metanit.com/sharp/patterns/2.3.php
+https://habr.com/ru/post/210288/
+https://refactoring.guru/ru/design-patterns/singleton
