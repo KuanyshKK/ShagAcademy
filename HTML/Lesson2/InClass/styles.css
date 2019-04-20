@@ -1,0 +1,83 @@
+.unordered {
+    list-style-image: url('assets/icons.png');
+    list-style-position: inside;
+}
+
+.back {
+    width: 500px;
+    height: 400px;
+    background-image: url(assets/lake.jpg);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 30% 60%;
+}
+
+.text {
+    
+}
+
+.flexbox {
+    display: flex;
+/*    flex-wrap: wrap;*/
+    justify-content: space-between;
+}
+.item-1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.item-2 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    
+}
+.item-3 {
+    background-color: aquamarine;
+    width: 200px;
+    height: 400px;
+}
+.item-4 {
+    background-color: coral;
+    width: 200px;
+    height: 330px;
+}
+
+@media only screen and  (max-width: 425px) { /* Для цветных экранов */
+  body { background-color: aqua; }
+ .flexbox{flex-direction: column; }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 700px) { /* Для цветных экранов */
+  body { background-color: gold; }
+ .flexbox{flex-direction: row; }
+}
+
+
+.spanclass{
+    background-color: red;
+}
+a:visited {
+    color: red;
+}
+a:active {
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.blocks{
+    width: 100%;
+    height: 200px;
+    background-color: red
+}
+.img{
+    width: 50%;
+}
+.carousel-img {
+    width: 100%;
+    height: 700px;
+}
+.cards {
+    display: flex;
+}
