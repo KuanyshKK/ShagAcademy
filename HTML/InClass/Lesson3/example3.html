@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        <title>Document</title>
+        <style type="text/css">
+        table, tr, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        caption-side: top;
+        font-family: 'Gugi', cursive;
+        }
+        tr, td {
+        padding: 10px;
+        
+        }
+        caption{
+        margin-bottom: 16px;
+        }
+        tr:nth-child(odd){
+        background-color: red;
+        }
+        tr:nth-child(even){
+        background-color: yellow;
+        }
+        .first-row{
+        background-color: grey;
+        }
+        td{
+        padding: 10px;
+        text-align: center;
+        }
+        .relative-block{
+        top: 32px;
+        left: 24px;
+        position: relative;
+        width: 500px;
+        height: 400px;
+        background-color: #88E1F7;
+        
+        }
+        .absolute-block{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: green;
+        
+        }
+        .fixed-block{
+        position: fixed;
+        width: 500px;
+        height: 500px;
+        background-color: #000;
+        }
+        .overlock-block{
+        width: 400px;
+        height: 100px;
+        background-color: #000;
+        margin-top: 50px;
+        }
+        .child-block{
+        width: 200px;
+        height: 150px;
+        background-color: #fff;
+        }
+        </style>
+    </head>
+    <table>
+        <thead>
+            <caption>Life Expentancy  By current age </caption>
+        </thead>
+        <tbody>
+            <tr class="first-row">
+                <td colspan="2">65</td>
+                <td colspan="2">40</td>
+                <td colspan="2">25</td>
+            </tr>
+            <tr>
+                <td>Men</td>
+                <td>Women</td>
+                <td>Men</td>
+                <td>Women</td>
+                <td>Men</td>
+                <td>Women</td>
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>88</td>
+                <td>89</td>
+                <td>67</td>
+                <td>65</td>
+                <td>56</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <div class="relative-block">
+        <div class="absolute-block">Hello World!</div>
+    </div>
+    <div class="fixed-block">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div> -->
+    <div class="overlock-block">
+        <div class="child-block">children1</div>
+        <div class="child-block">children2</div>
+    </div>
+    
+    <body>
+        
+    </body></html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+		<style type="text/css">
+			.fieldset{
+				width: 300px;
+			}
+			.input-block{
+				display: flex;
+				justify-content: space-between;
+				border: 2px ;
+			}
+			.input-block + .input-block{
+				margin-top: 20px;
+			}
+			.text-input{
+				width: 200px;
+				outline: none;
+			}
+			.btn{
+				margin-top: 32px;
+				padding: 8px 16px;
+				border-radius: 8px;
+				background-color: #47BE77;
+				color: white;
+				font-size: 16px;
+				font-weight: 700;
+			}
+			.send-btn{
+				width: 300px;
+				display: flex;
+				justify-content: flex-end;
+			}
+			textarea{
+				outline: none;
+			}
+			textarea:hover {
+				border: 1px solid red;
+				background: #B8D9F2;
+			}
+			.textarea-block{
+				display: flex;
+				flex-direction: column;
+				margin-top: 20px;
+			}
+			input:hover {
+				border: 2px solid #55BCF2;
+				background: #ECEF9E;
+			}
+			inputs-fieldset fieldset{
+				border: 1px solid #55BCF2;
+			}
+			.text-input{
+				border-width: 2px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form>
+			<fieldset class="fieldset">
+				<legend>Контактная информация</legend>
+				<div class="input-block">
+					<label for="name">Имя</label>
+					<input class="text-input" type="text" name="name">
+				</div>
+				<div class="input-block">
+					<label for="surname">Фамилия</label>
+					<input class="text-input" type="text" name="surname">
+				</div>
+				<div class="input-block">
+					<label for="password">Пароль</label>
+					<input class="text-input" type="password" name="password">
+				</div>
+				<div class="textarea-block">
+					<label for="area">Содержание</label>
+					<textarea name="area" rows="10" cols="40"></textarea>
+				</div>
+				<select >
+					<option >Apple</option>
+					<option >HTC</option>
+					<option >Xiaomi</option>
+				</select>
+				
+			</fieldset>
+			<fieldset class="inputs-fieldset fieldset">
+				<legend>Типы input-ов</legend>
+				<div class="input-block">
+					<label for="color">Цвет</label>
+					<input class="text-input" type="color" name="color">
+				</div>
+				<div class="input-block">
+					<label for="date">Дата</label>
+					<input class="text-input" type="date" name="date">
+				</div>
+				<div class="input-block">
+					<label for="number">Число</label>
+					<input class="text-input" type="number" name="number">
+				</div>
+				<div class="input-block">
+					<label for="tel">Номер телефона</label>
+					<input class="text-input" type="tel" name="tel">
+				</div>
+				<div class="input-block">
+					<label for="email">Email</label>
+					<input class="text-input" type="email" name="email">
+				</div>
+				<div class="input-block">
+					<label for="zip">Pattern</label>
+					<input pattern="[0-9] {5}" type="text" name="zip" title="Zipcode">
+				</div>
+				<div class="input-block">
+					<label for="radio">Radio</label>
+					<input type="radio" name="radio">Вариант А					
+				</div>
+				<div class="input-block">
+					<label for="radio">Disabled</label>
+					<input type="text-input" name="radio" disabled="true">
+				</div>
+				<div class="input-block">
+					<label for="focus">Autofocus</label>
+					<input type="text-input" name="focus" autofocus="true">
+				</div>
+				<div class="input-block">
+					<label for="value">Value</label>
+					<input type="text-input" name="value" value="Hello">
+				</div>
+				<div class="input-block">
+					<label for="placeholder">Value</label>
+					<input type="text-input" name="value" placeholder="Hello">
+				</div>
+				<div class="input-block">
+					<label for="check">Checkbox</label>
+					<input type="checkbox" name="check">
+				</div>
+			</fieldset>
+			<div class="send-btn">
+				<button type="submit" class="btn" disabled="true">Отправить</button>
+			</div>
+			
+		</form>
+		
+	</body>
+</html>
