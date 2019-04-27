@@ -1,0 +1,64 @@
+* {
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	color: red;
+}
+
+h3 {
+	color: #8f4acb;
+}
+
+p {
+	font-size: 32px;
+	font-weight: 600;
+	color: #000;
+}
+
+a {
+	text-decoration: underline;
+	color: #554f3d;
+}
+h1{
+	color: black;
+}
+#title {
+	color: red;
+}
+#main-title:hover {
+	color: rgba(3, 5, 255, 0.5);
+	font-size: 36px;
+	cursor: pointer;
+}
+
+#main-title:focus {
+	color: rgba(3, 5, 255, 0.1);
+	font-size: 36px;
+	outline: none;
+}
+.title-class {
+	color: blue;
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+.subtitle {
+	color: green;
+}
+[alt="Photo"] {
+	width: 400px;
+} 
+
+.block .article {
+	text-align: center;
+}
+button {
+	border-radius: 4px;
+}
+button + button {
+	margin-left: 16px;
+}
+.tilda ~ .foo {
+	margin: 16px;
+	border-right: 4px solid red;
+}
