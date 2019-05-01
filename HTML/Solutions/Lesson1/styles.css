@@ -7,14 +7,10 @@ body {
     font-weight: bold;
     font-family: 'Allura', cursive;
 }
-
-.flex-container {
-    
-    display: flex;
+.container1{
+    font-family: 'Abhaya Libre', serif;
 }
 
-.flex-item {
--webkit-flex: 3 1 100px; 
--ms-flex:  3 1 100px; 
-flex:  3 1 100px;
-}
+
+
+
