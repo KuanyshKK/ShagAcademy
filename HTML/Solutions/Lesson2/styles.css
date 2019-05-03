@@ -1,4 +1,48 @@
-.omg{
+.omg {
     width: 200px;
     height: 100px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #f7d87c;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #081e8b;
+    border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 50px;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.col-10{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQraHN40CmqMlJTnnjxkVYrOwuzMRONvmEHRD5gmRHJ0qm9J0KV");
+    text-align: center;
+    justify-content: center;
 }
