@@ -10,7 +10,7 @@ img {
 
 .container {
     margin-top: 20px;
-    background-color: #f7d87c;
+    background-color: white; 
 }
 
 ul {
@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #081e8b;
+    background-color: #d55f10;
     border-radius: 10px;
 }
 
@@ -42,7 +42,12 @@ li a:hover {
 }
 
 .col-10{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQraHN40CmqMlJTnnjxkVYrOwuzMRONvmEHRD5gmRHJ0qm9J0KV");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy311NAHp_aDIl87kNV46KpwtnuW6gZobL7GFQWWEVHKcsStNb");
     text-align: center;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.row{
+    padding-top: 10px;
 }
