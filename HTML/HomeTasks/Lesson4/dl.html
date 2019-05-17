@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Список определений</title>
+  <link rel="stylesheet" type="text/css" href="dl.css">
+ </head>
+ <body> 
+
+  <ol class="ordered-list">
+    <li>Ordered list item 1</li>
+    <li>Ordered list item 2</li>
+    <li>Ordered list item 3</li>
+    <li>Ordered list item 4</li>
+  </ol>
+
+  <ul class="unordered-list">
+    <li>Unordered list item 1</li>
+    <li>Unordered list item 2</li>
+    <li>Unordered list item 3</li>
+    <li>Unordered list item 4</li>
+  </ul>
+
+ <dl>
+  <dt>GIF</dt>
+  <dd>Формат графических файлов, широко применяемый при создании сайтов. 
+   GIF использует 8-битовый цвет и эффективно сжимает сплошные цветные области, 
+   при этом сохраняя детали изображения.</dd>
+  <dt>JPEG</dt>
+  <dd>Популярный формат графических файлов, широко применямый при создании 
+  сайтов и хранения изображений. JPEG поддерживает 24-битовый цвет и сохраняет 
+  яркость и оттенки цветов в фотографиях. Данный формат называют сжатием с потерями, 
+  поскольку алгоритм JPEG выборочно отвергает данные. Метод сжатия может исказить 
+  деталь в рисунке, особенно содержащий текст или изображение с четкими краями. 
+  Формат JPEG не поддерживает прозрачность, когда вы сохраняете фотографию в формате 
+  JPEG, прозрачные пиксели заполняются определенным цветом.</dd>
+ </dl>
+
+<!-- Свойство display: inline-block -->
+ <ul style="border:1px solid black; padding:0">
+  <li>Инлайн Блок<br>3 строки<br>высота/ширина явно не заданы</li>
+  <li style="width:100px;height:100px">Инлайн<br>Блок 100x100</li>
+  <li style="width:60px;height:60px">Инлайн<br>Блок 60x60</li>
+  <li style="width:100px;height:60px">Инлайн<br>Блок 100x60</li>
+  <li style="width:60px;height:100px">Инлайн<br>Блок 60x100</li>
+</ul>
+
+<ol>
+  <li>
+    <p>Beat eggs, flour, butter and sugar until creamy</p>
+      <ul style="list-style-type: katakana;">
+         <li>Add the chocolate sauce, </li>
+         <li>Now, add the cinnamon crunchies, </li>
+         <li>Add 1 tsp nutmeg</li>
+      </ul>
+  </li>
+  <li>Pour into round baking pan</li>
+  <li>Slowly add and swirl the following ingredients in order:
+       <ol>
+         <li>Add the chocolate sauce, </li>
+         <li>Now, add the cinnamon crunchies, </li>
+         <li>Add 1 tsp nutmeg</li>
+       </ol>
+  </li>
+  <li>Slowly add and swirl any one or combination of the following ingredients:
+     <ul>
+       <li>chocolate sauce</li>
+       <li>cinnamon crunchies,</li>
+       <li>1 tsp nutmeg</li>
+       <ol style="list-style-type: upper-alpha;">
+          <li>chocolate sauce</li>
+         <li>cinnamon crunchies,</li>
+         <li>1 tsp nutmeg</li>
+       </ol>
+     </ul>
+  </li>
+  <li>Place in oven and bake for 40 minutes</li>
+</ol>
+
+<ul>
+  <li><a href="https://example.com" target="_parent">Website</a></li>
+  <li><a href="mailto:m.bluth@example.com">Email</a></li>
+  <li><a href="tel:+123456789">Phone</a></li>
+</ul>
+
+ </body>
+</html>
