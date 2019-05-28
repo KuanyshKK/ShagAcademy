@@ -1,5 +1,14 @@
-#dropdownMenuButton{
-        font-size: 12px;
-        margin-right: 10px;
-    }
+#dropdownMenuButton {
+    font-size: 12px;
+    margin-right: 10px;
+}
 
+#centralText {
+    font-family: 'Mandali', sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row{
+    margin-top: 10px;
+}
