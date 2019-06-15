@@ -1,0 +1,27 @@
+p {
+  margin: 8px;
+  font-size: 16px;
+  
+}
+.myclass {
+  color: blue;
+}
+.highlight {
+  background: #cef6f5;
+}
+
+.button{
+    width: 256px;
+    height: 64px;
+    background-color: blue;
+    border: 1px solid brown;
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 40px;
+    cursor: pointer;    
+}
+
+.button:hover{
+    color: green;
+    background-color: #cef6f5;
+}
